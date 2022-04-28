@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;practical.mp3.length&apos; in &apos;practical.mp3&apos;&#x0A;- Original project: &apos;JUnitPractical4&apos;&#x0A;- Original element: &apos;practical.mp3.length&apos;&#x0A;- Getter method name: &apos;getLength&apos;&#x0A;- Setter method name: &apos;setLength&apos;&#x0A;- Field visibility: &apos;public&apos;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;length&apos;" flags="589830" getter="getLength" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;practical{mp3.java[mp3^length" insertion="9" setter="setLength" stamp="1613241942522" version="1.0" visibility="1"/>
+</session>

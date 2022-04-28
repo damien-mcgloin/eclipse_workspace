@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;biggestNumber&apos; in &apos;methods.ReturnToMe.biggest(...)&apos; to &apos;big&apos;&#x0A;- Original project: &apos;Methods&apos;&#x0A;- Original element: &apos;methods.ReturnToMe.biggest(int, int).biggestNumber&apos;&#x0A;- Renamed element: &apos;biggestNumber&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;biggestNumber&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;methods{ReturnToMe.java[ReturnToMe~biggest~I~I@biggestNumber!377!394!381!393!I!0!false" name="big" references="true" stamp="1602766805501" version="1.0"/>
+</session>

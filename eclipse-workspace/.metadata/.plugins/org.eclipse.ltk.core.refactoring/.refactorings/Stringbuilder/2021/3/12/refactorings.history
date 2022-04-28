@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;exercise.StringBuilder&apos; to &apos;SBExample&apos;&#x0A;- Original project: &apos;Stringbuilder&apos;&#x0A;- Original element: &apos;exercise.StringBuilder&apos;&#x0A;- Renamed element: &apos;exercise.SBExample&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;StringBuilder&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;exercise{StringBuilder.java[StringBuilder" matchStrategy="1" name="SBExample" qualified="false" references="true" similarDeclarations="false" stamp="1616003228501" textual="false" version="1.0"/>
+</session>

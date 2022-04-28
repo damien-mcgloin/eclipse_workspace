@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package enumsdemo;
+
+/**
+ * @author damienmcgloin
+ *
+ */
+public class BookAdmin {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		Book b1 = new Book("Catch 22", "Comedy");
+		Book b2 = new Book("The catcher in the rye", "Thriller");
+		
+		Book[] books = { b1, b2 };
+
+	}
+
+}

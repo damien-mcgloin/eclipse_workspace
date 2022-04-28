@@ -1,0 +1,10 @@
+package practical;
+
+public class TestCal {
+	
+	Calculator calculator = new Calculator();
+	
+	int expectedSumAnswer = 7;
+	int calculator
+
+}

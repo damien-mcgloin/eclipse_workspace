@@ -1,0 +1,9 @@
+package arrayexamples;
+
+public class Father extends GrandFather {
+
+	public Father() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

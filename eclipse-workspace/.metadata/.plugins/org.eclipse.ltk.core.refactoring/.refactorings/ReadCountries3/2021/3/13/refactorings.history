@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ReadCountries3/countries (1).csv&apos; to &apos;countries.csv&apos;" description="Rename resource &apos;countries (1).csv&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="countries (1).csv" name="countries.csv" stamp="1616495522719" updateReferences="true"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;shapes.ShapeFactory.getAreaOfCircle(...)&apos; to &apos;getAreaOfShape&apos;&#x0A;- Original project: &apos;PolyM2&apos;&#x0A;- Original element: &apos;shapes.ShapeFactory.getAreaOfCircle(...)&apos;&#x0A;- Renamed element: &apos;shapes.ShapeFactory.getAreaOfShape(...)&apos;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;getAreaOfCircle&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;shapes{ShapeFactory.java[ShapeFactory~getAreaOfCircle~QShape;" name="getAreaOfShape" references="true" stamp="1611174173937" version="1.0"/>
+</session>

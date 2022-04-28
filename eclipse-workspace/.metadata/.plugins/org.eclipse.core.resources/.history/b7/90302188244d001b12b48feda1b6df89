@@ -1,0 +1,11 @@
+package practical;
+
+public class TestCal {
+	
+	Calculator cal = new Calculator();
+	
+	int expectedSumAnswer = 7;
+	int actual = cal.addNumbers(3, 4);
+	
+
+}

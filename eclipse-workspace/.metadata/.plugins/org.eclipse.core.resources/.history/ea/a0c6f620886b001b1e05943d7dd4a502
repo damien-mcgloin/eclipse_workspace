@@ -1,0 +1,44 @@
+package practical;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class BookTest {
+
+	@BeforeEach
+	void setUp() throws Exception {
+	}
+
+	@Test
+	void testBook() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testBookStringStringStringInt() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSetISBN() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSetAuthor() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSetTitle() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSetRating() {
+		fail("Not yet implemented");
+	}
+
+}

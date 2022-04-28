@@ -1,0 +1,13 @@
+package challenge;
+
+public class SongStats {
+
+	public static ArrayList<Song> songs = new ArrayList<Song>();
+	
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

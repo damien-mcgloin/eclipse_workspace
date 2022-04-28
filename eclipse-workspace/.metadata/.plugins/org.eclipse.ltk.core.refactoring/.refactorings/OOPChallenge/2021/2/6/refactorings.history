@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;mobilePhone&apos; to &apos;mobilephone&apos;&#x0A;- Original project: &apos;OOPChallenge&apos;&#x0A;- Original element: &apos;OOPChallenge/src/mobilePhone&apos;&#x0A;- Renamed element: &apos;OOPChallenge/src/mobilephone&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;mobilePhone&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;mobilePhone" name="mobilephone" qualified="false" references="true" stamp="1612334147212" textual="false" version="1.0"/>
+</session>

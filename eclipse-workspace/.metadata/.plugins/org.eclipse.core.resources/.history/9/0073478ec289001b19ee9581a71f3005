@@ -1,0 +1,7 @@
+package challenge;
+
+import java.util.Comparator;
+
+public class CompareByPopDesc implements Comparator<T> {
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;challenge.Library&apos; to &apos;LibrarySearch&apos;&#x0A;- Original project: &apos;JUnitChallenge2&apos;&#x0A;- Original element: &apos;challenge.Library&apos;&#x0A;- Renamed element: &apos;challenge.LibrarySearch&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Library&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;challenge{Library.java[Library" matchStrategy="1" name="LibrarySearch" qualified="false" references="true" similarDeclarations="false" stamp="1612696632108" textual="false" version="1.0"/>
+</session>

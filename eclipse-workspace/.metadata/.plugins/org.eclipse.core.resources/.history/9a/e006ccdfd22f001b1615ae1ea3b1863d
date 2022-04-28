@@ -1,0 +1,52 @@
+/**
+ * 
+ */
+package arrayexamples;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+
+/**
+ * @author damienmcgloin
+ *
+ */
+public class ExamplesArrayLists {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		ArrayList<String> fruits = new ArrayList<String>();
+		
+		fruits.add("Apples");
+		fruits.add("Oranges");
+		
+		System.out.println(fruits.toString());
+		
+		fruits.add(0, "Pears");
+		System.out.println(fruits.toString());
+		
+		System.out.println(fruits.size());
+		
+		
+		
+		
+		
+		for (int loop = 0; loop<fruits.size(); loop++) {
+			System.out.println(fruits.get(loop));
+		}
+		
+		for (String item : fruits) {
+			System.out.println(item);
+		}
+		
+		Iterator<String> it = fruits.iterator();
+		while (it.hasNext()) {
+			System.out.println(it.next());
+		}
+
+	}
+
+}

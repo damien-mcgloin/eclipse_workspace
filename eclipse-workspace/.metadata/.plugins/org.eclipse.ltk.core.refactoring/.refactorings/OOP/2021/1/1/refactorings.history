@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;practical.Calculator.memory&apos; in &apos;practical.Calculator&apos;&#x0A;- Original project: &apos;OOP&apos;&#x0A;- Original element: &apos;practical.Calculator.memory&apos;&#x0A;- Getter method name: &apos;getMemory&apos;&#x0A;- Setter method name: &apos;setMemory&apos;&#x0A;- Field visibility: &apos;public&apos;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;memory&apos;" flags="589830" getter="getMemory" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;practical{Calculator.java[Calculator^memory" insertion="-1" setter="setMemory" stamp="1609606664085" version="1.0" visibility="1"/>
+</session>

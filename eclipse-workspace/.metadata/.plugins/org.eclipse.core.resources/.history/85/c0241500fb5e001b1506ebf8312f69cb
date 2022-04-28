@@ -1,0 +1,43 @@
+/**
+ * 
+ */
+package enumsdemo;
+
+/**
+ * @author damienmcgloin
+ *
+ */
+public class BookAdmin {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		Book b1 = new Book("Catch 22", Genre.COMEDY);
+		Book b2 = new Book("The catcher in the rye", Genre.THRILLER);
+		Book b3 = new Book("Peter Kay", Genre.COMEDY);
+		
+		Book[] books = { b1, b2, b3 };
+		
+		searchForComedy(books, "comedy");
+		searchForComedy(books, "thriller");
+
+	}
+	
+	/**
+	 * 
+	 * @param books
+	 * @param genre
+	 */
+	public static void searchForComedy(Book[] books, String genre) {
+		
+		for (Book book : books) {
+			if (book.getGenre().equalsIgnoreCase(genre)) {
+				System.out.println(genre+" "+book.getName());
+			}
+		}
+		
+	}
+	
+}

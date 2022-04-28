@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;exceptional.ArrayIssue1&apos; to &apos;CallStack&apos;&#x0A;- Original project: &apos;Exceptional&apos;&#x0A;- Original element: &apos;exceptional.ArrayIssue1&apos;&#x0A;- Renamed element: &apos;exceptional.CallStack&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ArrayIssue1&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;exceptional{ArrayIssue1.java[ArrayIssue1" matchStrategy="1" name="CallStack" qualified="false" references="true" similarDeclarations="false" stamp="1605008833091" textual="false" version="1.0"/>
+</session>

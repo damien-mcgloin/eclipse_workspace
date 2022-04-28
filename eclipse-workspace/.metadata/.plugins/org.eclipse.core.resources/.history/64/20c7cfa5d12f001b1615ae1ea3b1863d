@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+package arrayexamples;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+
+/**
+ * @author damienmcgloin
+ *
+ */
+public class ExamplesArrayLists {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		ArrayList<String> items = new ArrayList<String>();
+		
+		items.add("Apples");
+		items.add("Oranges");
+		
+		System.out.println(items);
+
+	}
+
+}

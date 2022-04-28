@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;enums.Book.genre&apos; in &apos;enums.Book&apos;&#x0A;- Original project: &apos;EnumStuff&apos;&#x0A;- Original element: &apos;enums.Book.genre&apos;&#x0A;- Getter method name: &apos;getGenre&apos;&#x0A;- Setter method name: &apos;setGenre&apos;&#x0A;- Field visibility: &apos;public&apos;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;genre&apos;" flags="589830" getter="getGenre" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;enums{Book.java[Book^genre" insertion="3" setter="setGenre" stamp="1612465328729" version="1.0" visibility="1"/>
+</session>

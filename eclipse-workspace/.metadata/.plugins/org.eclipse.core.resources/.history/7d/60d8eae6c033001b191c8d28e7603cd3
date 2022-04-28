@@ -1,0 +1,25 @@
+package arrayexamples;
+
+public class StaffAdmin {
+
+	public static void main(String[] args) {
+		
+		// create a Staff Member
+		StaffMember staffMember = new StaffMember();
+		staffMember.setFirstName("Staff");
+		staffMember.setLastName("LastName ");
+		
+		Doctor doctor = new Doctor();
+		doctor.setWard(4);
+		doctor.setFirstName("Doctor");
+		doctor.setLastName("Who");
+		
+		Programmer programmer = new Programmer();
+		programmer.setLanguage("Java");
+		programmer.setFirstName("Damien");
+		programmer.setLastName("McGloin");
+
+
+	}
+
+}

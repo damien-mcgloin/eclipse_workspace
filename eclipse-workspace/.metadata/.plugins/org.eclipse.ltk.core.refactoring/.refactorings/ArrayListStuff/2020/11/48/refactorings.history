@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;items&apos; in &apos;arrayexamples.ExamplesArrayLists.main(...)&apos; to &apos;fruits&apos;&#x0A;- Original project: &apos;ArrayListStuff&apos;&#x0A;- Original element: &apos;arrayexamples.ExamplesArrayLists.main(String[]).items&apos;&#x0A;- Renamed element: &apos;items&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;items&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;arrayexamples{ExamplesArrayLists.java[ExamplesArrayLists~main~\[QString;@items!266!315!284!288!QArrayList\&lt;QString;&gt;;!0!false" name="fruits" references="true" stamp="1606386390809" version="1.0"/>
+</session>

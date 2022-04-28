@@ -1,0 +1,87 @@
+package practical;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class BookTest {
+	
+	// test data
+	String ISBNLowerValid, ISBNUpperValid, ISBNLowerInvalid, ISBNUpperInvalid,
+	authorValid, authorLowerValid, authorInvalid, 
+	titleValid, titleLowerValid, titleInvalid;
+	int lowerValidRating, midValidRating, upperValidRating, lowerInvalidRating, upperInvalidRating;
+	
+	Book book;
+
+	@BeforeEach
+	void setUp() throws Exception {
+		ISBNLowerValid = "ISBNValid1";
+		ISBNUpperValid = "ISBNValid1234";
+		ISBNLowerInvalid = "NotValid1";
+		ISBNUpperInvalid = "NotValid123456";
+		
+		authorValid = "authorValid";
+		authorLowerValid = "a";
+		authorInvalid = "";
+		
+		titleValid = "titleValid";
+		titleLowerValid = "t";
+		titleInvalid = "";
+		
+		lowerValidRating = 1;
+		midValidRating = 3;
+		upperValidRating = 5;
+		lowerInvalidRating = 0;
+		upperInvalidRating = 6;
+		
+		book = new Book();
+	}
+
+	@Test
+	void testDefaultConstructor() {
+		assertNotNull(book);
+	}
+
+	@Test
+	void testNonDefaultConstructor() {
+		book = new Book(ISBNLowerValid, authorValid, titleValid, midValidRating);
+		
+		assertEquals(ISBNLowerValid, book.getISBN());
+		assertEquals(authorValid, book.getAuthor());
+		assertEquals(titleValid, book.getTitle());
+		assertEquals(midValidRating, book.getRating());
+	}
+	
+	@Test
+	void testNonDefaultConstructorInvalid() {
+		IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, ()-> {
+			book = new Book(ISBNLowerInvalid, authorValid, titleValid, midValidRating);
+		});
+		
+		assertEquals("ISBN not valid", exception.getMessage());
+		
+	}
+
+	@Test
+	void testSetISBN() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSetAuthor() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSetTitle() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSetRating() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+package methods;
+
+/**
+ * @author damienmcgloin
+ *
+ */
+public class ThursdayMethods {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		System.out.println("in main");
+		invokeName(10);
+		System.out.println("end main");
+
+	} // end of main
+	
+	public static void invokeName(int count) {
+		
+		for (int loop = 1; loop<=count; loop++);
+		System.out.println("Damien");
+		
+	} // end of 2nd class
+
+} // end of class

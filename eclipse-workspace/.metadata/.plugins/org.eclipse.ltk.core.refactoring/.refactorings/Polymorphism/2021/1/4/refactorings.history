@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;practical.Porter1.site&apos; in &apos;practical.Porter1&apos;&#x0A;- Original project: &apos;Polymorphism&apos;&#x0A;- Original element: &apos;practical.Porter1.site&apos;&#x0A;- Getter method name: &apos;getSite&apos;&#x0A;- Setter method name: &apos;setSite&apos;&#x0A;- Field visibility: &apos;public&apos;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;site&apos;" flags="589830" getter="getSite" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;practical{Porter1.java[Porter1^site" insertion="1" setter="setSite" stamp="1611008616079" version="1.0" visibility="1"/>
+</session>
